@@ -16,7 +16,7 @@
         }
       ],
       "scripts": [
-        "Z-Selenium-Tests/Tests/*"
+        "Tests/*"
       ]
     }
   ]

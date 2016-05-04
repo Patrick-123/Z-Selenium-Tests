@@ -1,0 +1,9 @@
+language: node_js
+before_script:
+    - "npm install -g se-interpreter"
+script:
+    - "se-interpreter interpreter_config.json"
+env:
+    global:
+        - SAUCE_USERNAME=zicassosauce
+        - secure: "uEAE/cv2Q3akUJmoW/cf39ysKTlqCNcmXu83JNoQ9lIdteW0mG5/gXPl8g9SRbgJCxpCiaGptLB7QOCQAIz/qbyOpF89/k/2c3Yg1qWEhEJFxO80soV4sA+nfvEE0/YymXssiLhsFXuwmE2NZhbi+hBrOy7JVsxoTQ8rzJKPEEYrJ0jzk54gKxRkWQnngoUJrJb0X8m/yme0MJK8hih8OcAqp3frP1SS2Xxc+sg7kQ8bfB+3GPvFAlSzDaWkueILBD15OswAQy7dqHI0nruC5dx40rgIUzMi06GkwFGit7mFlSIa/IxU1ikQzWTFQ7MiCImThl3zAVJAU8aHvvJ+lMWCHmy9MxW1BnB+DGaiib+vrWHfC2Zf89GQZpNc9cogTt4NNy7CB/LIR6/9Lj3kTfCjsISPALa6PIOHTE6lWICUc6toa4Q8RQYFg7d/jaM7X3LrghCJ1OC5pSiQEkPK+Ec9Wtq0qSDkm6ifXxIFgnJQC6E2IgiOUz0D8sKM6LjMVanikckZkblRgUvD/obPxZ8Mi6wCNsD0QGUaWue9JLW2KQ7DHz/YIviN9dDoq+VVxb0v6SCk3jAV4in2S/PU1wzEzAKDVadk5vV2gQik60dUvZmDW4Ign2sorQBp1vq7m5iVLtYnE4SsXowqNyDBhBClwQtHKTjsYIELM+SQ0GQ="
