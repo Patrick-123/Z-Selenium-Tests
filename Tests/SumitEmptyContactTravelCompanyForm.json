@@ -1,0 +1,28 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/contact-travel-company"
+    },
+    {
+      "type": "submitElement",
+      "locator": {
+        "type": "id",
+        "value": "edit-field-tccontact-name-und-0-value"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Contact Zicasso"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
