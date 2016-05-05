@@ -1,0 +1,36 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/contact"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "edit-field-pcontact-mail-und-0-email"
+      },
+      "text": "patrickhook42.com"
+    },
+    {
+      "type": "submitElement",
+      "locator": {
+        "type": "id",
+        "value": "edit-field-pcontact-mail-und-0-email"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "is not a valid email address"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
