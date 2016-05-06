@@ -1,0 +1,162 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(1)"
+      },
+      "attributeName": "class",
+      "value": "odd zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content2"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(2)"
+      },
+      "attributeName": "class",
+      "value": "even zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content3"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(3)"
+      },
+      "attributeName": "class",
+      "value": "odd zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content4"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(4)"
+      },
+      "attributeName": "class",
+      "value": "even zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content5"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(5)"
+      },
+      "attributeName": "class",
+      "value": "odd zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content6"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(6)"
+      },
+      "attributeName": "class",
+      "value": "even zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content7"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(7)"
+      },
+      "attributeName": "class",
+      "value": "odd zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content8"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(8)"
+      },
+      "attributeName": "class",
+      "value": "even zicasso-tab-button resp-tab-item resp-tab-active"
+    },
+    {
+      "type": "get",
+      "url": "http://google.com"
+    },
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency#node-tours-full-group-content9"
+    },
+    {
+      "type": "verifyElementAttribute",
+      "locator": {
+        "type": "css selector",
+        "value": "li.zicasso-tab-button:nth-child(9)"
+      },
+      "attributeName": "class",
+      "value": "odd zicasso-tab-button resp-tab-item resp-tab-active"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
