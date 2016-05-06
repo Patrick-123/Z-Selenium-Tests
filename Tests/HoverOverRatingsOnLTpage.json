@@ -8,7 +8,7 @@
       "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency"
     },
     {
-      "type": "mouseOverElement",
+      "type": "clickAndHoldElement",
       "locator": {
         "type": "xpath",
         "value": "//div[@class='z-rich-snippet-name']//span[.='Zicasso']"
