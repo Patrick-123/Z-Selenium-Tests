@@ -10,48 +10,6 @@
     {
       "type": "mouseOverElement",
       "locator": {
-        "type": "css selector",
-        "value": "h1"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='block-system-main']/div"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='z-rich-snippet-name']//span[.='Zicasso']"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@id='block-system-main']/div/div[1]/div/figure/span/img"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='z-rich-snippet-name']//span[.='Zicasso']"
-      }
-    },
-    {
-      "type": "clickElement",
-      "locator": {
-        "type": "xpath",
-        "value": "//div[@class='z-rich-snippet-name']//span[.='Zicasso']"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
         "type": "xpath",
         "value": "//div[@class='z-rich-snippet-name']//span[.='Zicasso']"
       }
@@ -59,20 +17,6 @@
     {
       "type": "verifyTextPresent",
       "text": "We match you with top tour companies that specialize in the trip you want, whether it’s a customized private tour or a group tour."
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "h1"
-      }
-    },
-    {
-      "type": "mouseOverElement",
-      "locator": {
-        "type": "css selector",
-        "value": "h1"
-      }
     }
   ],
   "data": {
