@@ -1,6 +1,4 @@
-language: objective-c
-os:
-  - osx
+os: osx
 before_script:
     - "npm install -g se-interpreter"
 script:
