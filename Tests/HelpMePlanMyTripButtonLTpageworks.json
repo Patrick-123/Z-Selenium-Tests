@@ -1,0 +1,30 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://test-zicasso.pantheonsite.io/luxury-tours/italy/vacation-package-travel-agency"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Help Me Plan My Trip"
+    },
+    {
+      "type": "assertElementAttribute",
+      "locator": {
+        "type": "link text",
+        "value": "Help Me Plan My Trip"
+      },
+      "attributeName": "href",
+      "value": "http://test-zicasso.pantheonsite.io/node/add/triprequest"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
